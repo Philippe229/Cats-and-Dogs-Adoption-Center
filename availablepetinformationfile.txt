@@ -1,0 +1,3 @@
+1::cat:Persian:0-1:male:yes:yes:yes:none:user1:abc123:abc123@mail.com
+2::cat:Persian:0-1:male:yes:yes:yes:none:user1:abc123:abc123@mail.com
+3::cat:Persian:0-1:male:yes:yes:yes:none:user1:abc123:abc123@mail.com
