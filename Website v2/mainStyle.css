@@ -1,0 +1,88 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url("background.jpg");
+    background-repeat: repeat;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+div {
+	margin: 0.5%;
+	padding: 0.5%;
+	border-style: double;
+	border-width: 0.5%;
+	background-color: antiquewhite;
+}
+div.header {
+	float: right;
+	width: 77%;
+	height: 20%;
+}
+div.side {
+	float: left;
+	width: 17%;
+	height: 95%;
+}
+div.content {
+	float: right;
+	width: 77%;
+	height: 60%;
+	overflow: auto;
+}
+div.footer {
+	float: right;
+	width: 77%;
+	height: 5%;
+	background-color: firebrick;
+}
+h1, h3, p {
+	margin: 0;
+	padding: 0;
+}
+img {
+	margin: 0px 15px 0px 0px;
+	padding: 0;
+	vertical-align: middle;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+p#logosource {
+	margin: 5px 0 0 0;
+	font-size: 8px;
+}
+p#time {
+	margin-top: 20px;
+	text-align: right;
+}
+ul.petlist {
+	margin-left: 10px;
+	padding-top: 20px;
+}
+ul.petlist li {
+	margin-bottom: 20px;
+}
+table.listedpet {
+	width: 100%;
+	border: 1px solid black;
+	padding: 10px;
+	table-layout: fixed;
+	background-color: lightsalmon;
+}
+table.listedpet td:nth-child(2)
+table.listedpet td:nth-child(3) {
+	width: 35%
+}
+table.listedpet td:nth-child(1) {
+	width: 20%;
+}
+table.listedpet td:nth-child(4) {
+	width: 10%;
+}
+span.copyright {
+	font-size: 8px;
+}
+

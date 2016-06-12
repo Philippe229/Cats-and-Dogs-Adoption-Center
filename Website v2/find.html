@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>Adoption Center</title>
+		<link rel = "stylesheet" type = "text/css" href = "mainStyle.css" />
+	</head>
+	<body>
+		<div class = "header">
+			<h1><a href = "main.html"><img src = "logo.png" alt = "Naughty Dog Logo" /></a>Cats and Dogs Adoption Center</h1>
+			<p id = "logosource">Image by RealGamerNewz (http://realgamernewz.com/wp-content/uploads/2013/06/The-Last-Of-Us-Naughty-Dog.png)</p>
+			<p id = "time">
+				<script type = "text/javascript">
+				<!--
+				function displayTime() {
+					document.getElementById("time").innerHTML = Date();
+					setTimeout(displayTime, 1000);
+				}
+				displayTime();
+				//-->
+				</script>
+			</p>
+		</div>
+		<div class = "side">
+			<ul>
+				<li><a href = "main.html">Home</a></li>
+				<li><a href = "pets.html">Browse Available Pets</a></li>
+				<li><a href = "find.html">Find a dog/cat</a></li>
+				<li><a href = "dogcare.html">Dog Care</a></li>
+				<li><a href = "catcare.html">Cat Care</a></li>
+				<li><a href = "giveaway.html">Have a pet to give away</a></li>
+				<li><a href = "contactus.html">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class = "content">
+			<script type = "text/javascript">
+				<!--
+				function validate() {
+					var radioArray1 = document.getElementsByName("animal");
+					var radioArray2 = document.getElementsByName("behaviour");
+					var filled1 = false;
+					var filled2 = false;
+					for (var i = 0; i < radioArray1.length; i++) {
+						if (radioArray1[i].checked) {
+							filled1 = true;
+						}
+					}
+					for (var i = 0; i < radioArray2.length; i++) {
+						if (radioArray2[i].checked) {
+							filled2 = true;
+						}
+					}
+					if (filled1 == true && filled2 == true) {
+						return true;
+					}
+					else {
+						alert('Please answer all questions.');
+						return false;
+					}
+				}
+				//-->
+			</script>
+			<h3>Find a dog/cat</h3>
+			<form action = "#" onsubmit = "return validate()">
+				<fieldset>
+					<legend>Questions</legend>
+					<p>
+						Cat or Dog:
+						<label><input type = "radio" name = "animal" value = "cat">Cat</label>
+						<label><input type = "radio" name = "animal" value = "dog">Dog</label>
+					</p>
+					<p>Breed of cat or dog:
+						<select name = "breed">
+							<option selected = "selected">Persian</option>
+							<option>Maine Coone</option>
+							<option>Exotic</option>
+							<option>Labrador Retriever</option>
+							<option>German Shepherd</option>
+							<option>Boxer</option>
+							<option>Doesn't matter</option>
+						</select>	
+					</p>
+					<p>Preferred age of animal:
+						<select name = "age">
+							<option selected = "selected">0-1</option>
+							<option>2-5</option>
+							<option>6-8</option>
+							<option>9-11</option>
+							<option>12-14</option>
+							<option>15+</option>
+							<option>Doesn't matter</option>
+						</select>	
+					</p>
+					<p>
+						Needs to get along with other dogs, other cats, small children:
+						<label><input type = "radio" name = "behaviour" value = "yes">Yes</label>
+						<label><input type = "radio" name = "behaviour" value = "no">No</label> 
+					</p>
+				</fieldset>
+				<br />
+				<p>
+					<input id = "submit" type = "submit" name = "submit" value = "Submit" />
+					<input id = "reset" type = "reset" name = "reset" value = "Reset" />
+				</p>
+			</form>
+		</div>
+		<div class = "footer">
+			<p>
+				<script type = "text/javascript">
+				<!--
+				function disclaimer() {
+					alert("All user information will never be sold or misused. The website owner takes no responsability for any incorrect information posted by a pet owner. Background image by Dreamstime (http://thumbs.dreamstime.com/t/orange-tile-texture-19885149.jpg)");
+				}
+				//-->
+				</script>
+				<button onclick = "disclaimer()">Privacy/Disclaimer</button>
+	 			This website was made by Philippe Li using Google Chrome.
+	 		</p>
+		</div>
+	</body>
+</html>

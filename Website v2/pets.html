@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>Adoption Center</title>
+		<link rel = "stylesheet" type = "text/css" href = "mainStyle.css" />
+	</head>
+	<body>
+		<div class = "header">
+			<h1><a href = "main.html"><img src = "logo.png" alt = "Naughty Dog Logo" /></a>Cats and Dogs Adoption Center</h1>
+			<p id = "logosource">Image by RealGamerNewz (http://realgamernewz.com/wp-content/uploads/2013/06/The-Last-Of-Us-Naughty-Dog.png)</p>
+			<p id = "time">
+				<script type = "text/javascript">
+				<!--
+				function displayTime() {
+					document.getElementById("time").innerHTML = Date();
+					setTimeout(displayTime, 1000);
+				}
+				displayTime();
+				//-->
+				</script>
+			</p>
+		</div>
+		<div class = "side">
+			<ul>
+				<li><a href = "main.html">Home</a></li>
+				<li><a href = "pets.html">Browse Available Pets</a></li>
+				<li><a href = "find.html">Find a dog/cat</a></li>
+				<li><a href = "dogcare.html">Dog Care</a></li>
+				<li><a href = "catcare.html">Cat Care</a></li>
+				<li><a href = "giveaway.html">Have a pet to give away</a></li>
+				<li><a href = "contactus.html">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class = "content">
+			<h3>Browse Available Pets</h3>
+			<ul class = "petlist">
+				<li>
+					<table class = "listedpet">
+						<tr>
+							<td rowspan = "5"><img src = "german_shepherd.jpg" width = "150" height = "100" alt = "Picture of a German Shepherd"/></td>
+							<td><b>Dog</b></td>
+							<td><b>Breed: German Shepherd</b></td>
+							<td rowspan = "5"><button>Interested</button></td>
+						</tr>
+						<tr>
+							<td>Age: 9</td>
+							<td>Gender: Male</td>
+						</tr>
+						<tr>
+							<td>Gets along with other dogs</td>
+							<td>Does not get along with other cats</td>
+						</tr>
+						<tr>
+							<td>Suitable for a family of small children</td>
+							<td rowspan = "2"><button onclick = "alert('Likes to play with babies. Loves going to the park.')">Comments</button></td>
+						</tr>
+						<tr>
+							<td>
+								<b>Previous Owner Information</b><br/>
+								First Name: John<br/>
+								Family Name: Doe<br/>
+								Email: john.doe@email.com<br/>
+							</td>
+						</tr>
+					</table>
+					<span class = "copyright">Image by West Coast Pet Care Center (http://www.west-coast.com.au/wp-content/uploads/2016/02/GermanShepherd.jpg)</span>
+				</li>
+				<li>
+					<table class = "listedpet">
+						<tr>
+							<td rowspan = "5"><img src = "maine_coon.jpg" width = "150" height = "100" alt ="Picture of a Maine Coon"/></td>
+							<td><b>Cat</b></td>
+							<td><b>Breed: Maine Coon</b></td>
+							<td rowspan = "5"><button>Interested</button></td>
+						</tr>
+						<tr>
+							<td>Age: 5</td>
+							<td>Gender: Female</td>
+						</tr>
+						<tr>
+							<td>Does not get along with other dogs</td>
+							<td>Does not get along with other cats</td>
+						</tr>
+						<tr>
+							<td>Suitable for a family of small children</td>
+							<td rowspan = "2"><button onclick = "alert('Likes to climb on top of objects. Keep away from expensive decorations and furniture.')">Comments</button></td>
+						</tr>
+						<tr>
+							<td>
+								<b>Previous Owner Information</b><br/>
+								First Name: Beatrice<br/>
+								Family Name: Pigeon<br/>
+								Email: pigeonb@email.com<br/>
+							</td>
+						</tr>
+					</table>
+					<span class = "copyright">Image by Your Cat (http://www.yourcat.co.uk/images/catimages/Breed_MaineCoon/mc1.jpg)</span>
+				</li>
+			</ul>
+		</div>
+		<div class = "footer">
+			<p>
+				<script type = "text/javascript">
+				<!--
+				function disclaimer() {
+					alert("All user information will never be sold or misused. The website owner takes no responsability for any incorrect information posted by a pet owner. Background image by Dreamstime (http://thumbs.dreamstime.com/t/orange-tile-texture-19885149.jpg)");
+				}
+				//-->
+				</script>
+				<button onclick = "disclaimer()">Privacy/Disclaimer</button>
+	 			This website was made by Philippe Li using Google Chrome.
+	 		</p>
+		</div>
+	</body>
+</html>
